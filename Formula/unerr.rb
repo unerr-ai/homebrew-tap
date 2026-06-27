@@ -9,31 +9,31 @@
 class Unerr < Formula
   desc     "Runtime guardrail that hands your coding agent the live call graph and anchored rules"
   homepage "https://unerr.dev"
-  version  "0.4.0"
+  version  "0.4.1"
 
   # CI auto-bumps: version string above + url/sha256 in each on_* block below.
 
   on_macos do
     on_arm do
-      url    "https://github.com/unerr-ai/unerr-docs/releases/download/v#{version}/unerr-darwin-arm64.tar.gz"
-      sha256 "3d0df3336fdb15e2b413b159a7aafcb661c6828607bd376f471258028f318f85"
+      url    "https://github.com/unerr-ai/unerr/releases/download/v#{version}/unerr-darwin-arm64.tar.gz"
+      sha256 "4b0bbe997b42ec5342d6e71cf949dc5800fd20b1c42b9f7da113506208e5a58a"
     end
 
     on_intel do
-      url    "https://github.com/unerr-ai/unerr-docs/releases/download/v#{version}/unerr-darwin-x64.tar.gz"
-      sha256 "19399e587dc5a9b4a5d9bd6c77b18b59c2a72e73f416ec5a9e0544fb96a26e3f"
+      url    "https://github.com/unerr-ai/unerr/releases/download/v#{version}/unerr-darwin-x64.tar.gz"
+      sha256 "8b9294e4efb7981b4dd8b13df16f57a2cfcb5e82054d2b3a2a39d0fd86e4b471"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/unerr-ai/unerr-docs/releases/download/v#{version}/unerr-linux-arm64.tar.gz"
-      sha256 "cf2acbe70090f24109c80a45d29a6d0485d4f15b18cfe57c47bd996f53d2a203"
+      url    "https://github.com/unerr-ai/unerr/releases/download/v#{version}/unerr-linux-arm64.tar.gz"
+      sha256 "332f6ae7fcda1ea8b39e5fff30531a25a8a3c2e4e7567120ad832c313662f689"
     end
 
     on_intel do
-      url    "https://github.com/unerr-ai/unerr-docs/releases/download/v#{version}/unerr-linux-x64.tar.gz"
-      sha256 "cd63551328b5a57539fa999271e11467b939762d47fa042f5a75c2148c678d6e"
+      url    "https://github.com/unerr-ai/unerr/releases/download/v#{version}/unerr-linux-x64.tar.gz"
+      sha256 "ddead5e072ee2c8e1559b4c6d319832f132d4822566826f0b184ac87eb5a046b"
     end
   end
 
